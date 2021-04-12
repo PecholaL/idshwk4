@@ -1,6 +1,6 @@
 # idshwk4
 * The Algorithm Requirement
-* make 404 statistics on orig_h
+ - make 404 statistics on orig_h
 * In every 10 minutes
  * if the count of 404 response > 2
  * and if the 404 ratio > 20% (404 ratio = 404 response/all response)
