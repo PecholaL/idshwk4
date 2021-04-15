@@ -20,7 +20,7 @@ event zeek_init()
 
 event http_reply(c:connection, version:string, code:count, reason:string)
 {
-  if (c$id$orig_h in responsesCounter)
+  if (c$id$orig_h in responseCounter)
     ++responseCounter[c$id$orig_h];
   else
     responseCounter[c$id$orig_h] = 1;
